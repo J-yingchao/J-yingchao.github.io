@@ -1,249 +1,194 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="cye-nm">
-
+<!DOCTYPE html>
+<html lang="en" class="cye-nm">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- change the follow href="./photo/youwanttoshowinhead"-->
-    <link rel="shortcut icon" href=".image/face.JPG">
-    <!-- change the follow content="   "-->
+    <meta charset="UTF-8">
     <meta name="keywords" content="Yingchao Jian, Jian Yingchao, ECE, UW, University of Washington">
     <meta name="description" content="Yingchao Jian&#39;s home page.">
-
+    <link rel="shortcut icon" href="./image/face.JPG">
     <link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
-    <!-- change the follow title-->
     <title>Yingchao Jian</title>
-
-    <script type="text/javascript" async="" src="./css/ga.js"></script>
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-39824124-1']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-
-   <style>
-    h4 {
-      font-size: inherit; /* 继承父元素的字体大小 */
-     }
-    </style>
-
-    <style id="nightModeStyle">
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body,
-        html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body {
-            -webkit-filter: contrast(91%) brightness(84%) invert(1);
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f9fa;
+            color: #222;
+            margin: 0;
+            padding: 0;
         }
-    </style>
-    <style id="cyebody">
-        html.cye-enabled.cye-lm body {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        #layout-content {
+            max-width: 900px;
+            margin: 30px auto 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 32px 40px 40px 40px;
         }
-    </style>
-    <style id="cyediv">
-        html.cye-enabled.cye-lm div {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        table {
+            width: 100%;
+            border: none;
         }
-    </style>
-    <style id="cyetable">
-        html.cye-enabled.cye-lm th {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        #toptitle h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+            font-weight: 700;
+            letter-spacing: 1px;
         }
-        
-        html.cye-enabled.cye-lm td {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        h2 {
+            border-bottom: 2px solid #cce8cf;
+            padding-bottom: 4px;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            font-size: 1.5em;
+            color: #2a6b3d;
         }
-    </style>
-    <style id="cyetextInput">
-        html.cye-enabled.cye-lm input[type=text] {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        h3 {
+            margin: 0 0 12px 0;
+            font-size: 1.15em;
+            color: #444;
         }
-        
-        html.cye-enabled.cye-lm textarea {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        h4 {
+            font-size: 1em;
+            margin: 0 0 4px 0;
+            color: #2a6b3d;
         }
-    </style>
-    <style id="cyeselect">
-        html.cye-enabled.cye-lm select {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        ul, ol {
+            margin: 0 0 0 20px;
+            padding: 0;
         }
-    </style>
-    <style id="cyeul">
-        html.cye-enabled.cye-lm ul {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        ul li, ol li {
+            margin-bottom: 10px;
+            line-height: 1.6;
         }
-    </style>
-    <style id="cyeChangeByClick">
-        html.cye-enabled.cye-lm .cye-lm-tag,
-        html.cye-enabled.cye-lm.cye-lm-tag {
-            background-color: #cce8cf !important;
-            border-color: rgb(51, 58, 51) !important;
-            background-image: none !important;
-            color: #000000 !important
+        .profile-img {
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-left: 24px;
         }
-    </style>
-    <style id="style-1-cropbar-clipper">
-        /* Copyright 2014 Evernote Corporation. All rights reserved. */
-        
-        .en-markup-crop-options {
-            top: 18px !important;
-            left: 50% !important;
-            margin-left: -100px !important;
-            width: 200px !important;
-            border: 2px rgba(255, 255, 255, .38) solid !important;
-            border-radius: 4px !important;
+        .contact-info a {
+            color: #2a6b3d;
+            text-decoration: none;
         }
-    </style>
-    <script>
-        (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 32px;
+        }
+        .award-list h4 {
+            margin-bottom: 6px;
+        }
+        .center {
+            text-align: center;
+        }
+        @media (max-width: 700px) {
+            #layout-content {
+                padding: 18px 6vw;
             }
-
-        )(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-82384246-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!--
-        .en-markup-crop-options div div:first-of-type { margin-left: 0px !important; }
-    -->
+            .profile-img {
+                width: 140px !important;
+                margin-left: 0;
+                margin-top: 16px;
+            }
+            table, tbody, tr, td {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
-
-
-
-<body ryt12610="1">
-    <div id="layout-content" style="margin-top:15px">
-
+<body>
+    <div id="layout-content">
         <table>
-            <tbody>
-                <tr>
-                    <td width="670">
-                        <div id="toptitle">
-                            <!-- change the follow as the page iner title-->
-                            <h1><a href='http://J-yingchao.github.io/' target="_blank">Jim Jian</a>  </h1>
-                            <h1>
-
-                            </h1>
-                        </div>
-                        <h3>Master Student</a>
-                        </h3>
-                        <p>
-                            <a href='https://www.ece.uw.edu'>School of Electrical and Computer Engineering</a> <br>
-                            <a href='https://www.washington.edu'>University of Washington</a> <br>
-                            <a href="https://www.google.com/maps/place/University+of+Washington/@47.6594133,-122.3292727,13z/data=!4m6!3m5!1s0x549014929d8535eb:0x6b742c7901b82ba3!8m2!3d47.6553351!4d-122.3035199!16s%2Fg%2F1tdkxdnn?entry=ttu" target="_blank">Seattle, WA</a><br>
-			    <br> Email: <a href="mailto:yingcj@uw.edu" target="_blank">yingcj@uw.edu</a><br>
-                            <!-- change the follow to your link
-                            LinkedIn: <a href="https://www.linkedin.com/in/chenyirong/">https://www.linkedin.com/in/chenyirong</a><br> Github: <a href="https://github.com/scutcyr/">https://github.com/scutcyr</a><br> Publons: <a href="https://publons.com/researcher/3026890/yirong-chen/">https://publons.com/researcher/3026890/yirong-chen</a><br>                            ORCID: <a href="http://orcid.org/0000-0002-0207-0067/">http://orcid.org/0000-0002-0207-0067</a><br> ResearchGate: <a href="https://www.researchgate.net/profile/Yirong_Chen7">https://www.researchgate.net/profile/Yirong_Chen7</a><br>                            CSDN: <a href="https://blog.csdn.net/m0_37201243">https://blog.csdn.net/m0_37201243</a><br> -->
-                        </p>
-                    </td>
-                    <td>
-                        <div style="float:right">
-                            <img src="/image/face.JPG" border="0" width="230">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                </tr>
-            </tbody>
+            <tr>
+                <td style="vertical-align:top;">
+                    <div id="toptitle">
+                        <h1><a href='http://J-yingchao.github.io/' target="_blank">Yingchao Jian</a></h1>
+                    </div>
+                    <h3>Master Student</h3>
+                    <div class="contact-info">
+                        <a href='https://www.ece.uw.edu'>School of Electrical and Computer Engineering</a><br>
+                        <a href='https://www.washington.edu'>University of Washington</a><br>
+                        <a href="https://www.google.com/maps/place/University+of+Washington/@47.6594133,-122.3292727,13z/data=!4m6!3m5!1s0x549014929d8535eb:0x6b742c7901b82ba3!8m2!3d47.6553351!4d-122.3035199!16s%2Fg%2F1tdkxdnn?entry=ttu" target="_blank">Seattle, WA</a><br>
+                        <br>
+                        Email: <a href="mailto:yingcj@uw.edu" target="_blank">yingcj@uw.edu</a>
+                    </div>
+                </td>
+                <td style="text-align:right; vertical-align:top;">
+                    <img src="./image/face.JPG" class="profile-img" border="0" width="180" alt="Profile Photo">
+                </td>
+            </tr>
         </table>
-    </div>
 
-    <h2>Biography</h2>
-    <p>
-        I am a graduate student majoring in Electrical and Computer Engineering currently enrolled at the University of Washington in the United States. I earned dual Bachelor's degrees in Engineering through a collaborative program between the University of Electronic Science and Technology of China and the University of Glasgow. This unique academic background has not only enriched my knowledge but has also cultivated a global perspective and cross-cultural communication skills.
-    </p>
-    <p>
-        My primary academic interests lie in the fields of Computer Science and Software Engineering. Through both academic and practical experiences, I have successfully applied theoretical knowledge to real-world projects and participated in various software development initiatives. I possess a profound understanding of areas such as data structures, algorithm design, and database management, and I continually strive for further advancements in these domains.
-    </p>
-
-    <h2>Education & Experience</h2>
-    <ul>
-        <li>
-            2023.09-2025.06 &nbsp;&nbsp;&nbsp;&nbsp;<b>University of Washington</b>
-        </li>
-	    
-        <li>
-            2019.09-2023.06 &nbsp;&nbsp;&nbsp;&nbsp;<b>University of Glasgow</b>(dual degree with <b>UESTC</b>)
-        </li>
-    </ul>
-
-  <h2>Working Experience</h2>
-    <ul>
-	<li><h4>Software Engineer Internship at China Mobile<small>[<a href="https://en.wikipedia.org/wiki/China_Mobile">2023.05-2023.08</a>]</small?</h4> </li>
-	 <em>Built a service distribution function under the web server of the VPN device and implemented the monitoring module function with the DPU of the product</em> 
-
-	    
-	<li><h4>Teaching Assistant at GEC Academy<small>[<a href="https://www.gecacademy.com/">2022.05-2023.02</a>]</small?</h4></li>
-	<em>Assisted professors from UCL, Oxford, Stanford in completing the course content, and scheduled office hours to supplement knowledge for students</em> 
-     </ul>
-
-
-<h2>Extracurricular Activities</h2>
-<ul>
-  <ol>
-   <li>
-      2019.09 - 2021.06&nbsp;&nbsp;&nbsp;&nbsp;<b>President of History Museum at UESTC</b>
-   </li>
-   <li>
-      2021.09 - 2021.11&nbsp;&nbsp;&nbsp;&nbsp;<b>Vounteer at <em>Hand in Hand</em></b>
-   </li>
-	  
-  </ol>
-</ul>
-
-
-
-<h2>Honors & Awards</h2>
- <ul>
-<h4>Edge Computing System Design for Interactive Robot in <a href="https://nuedc.sjtu.edu.cn/en/show.aspx?info_lb=20&info_id=304&flag=20">Intel Cup</a></h4>
-<!-- <li><a href="">竞赛名称</a></em> (<b><font class="highlight">奖励等级</font></b>)</li> -->
-<h4>Embedded Software System Design for <a href="image/report.pdf">Intelligent Robot</a></h4>
-
- </ul>
-
-			<div align="center"><img src="./image/uw_logo.png" border="0" width="300"></div>
-            <div align="center">
-                Last updated by <a href='http://J-yingchao.github.io/'>Yingchao Jian</a> on June, 08, 2023.
-            </div>
+        <div class="section">
+            <h2>Biography</h2>
             <p>
+                I am a graduate student majoring in Electrical and Computer Engineering currently enrolled at the University of Washington in the United States. I earned dual Bachelor's degrees in Engineering through a collaborative program between the University of Electronic Science and Technology of China and the University of Glasgow. This unique academic background has not only enriched my knowledge but has also cultivated a global perspective and cross-cultural communication skills.
             </p>
+            <p>
+                My primary academic interests lie in the fields of Computer Science and Software Engineering. Through both academic and practical experiences, I have successfully applied theoretical knowledge to real-world projects and participated in various software development initiatives. I possess a profound understanding of areas such as data structures, algorithm design, and database management, and I continually strive for further advancements in these domains.
+            </p>
+        </div>
 
+        <div class="section">
+            <h2>Education & Experience</h2>
+            <ul>
+                <li>
+                    <b>University of Washington</b> <span style="color:#888;">(2023.09 - 2025.06)</span>
+                </li>
+                <li>
+                    <b>University of Glasgow</b> (dual degree with <b>UESTC</b>) <span style="color:#888;">(2019.09 - 2023.06)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Working Experience</h2>
+            <ul>
+                <li>
+                    <h4>Software Engineer Internship at Tencent <small>[<a href="https://en.wikipedia.org/wiki/Tencent" target="_blank">2024.06-2024.08</a>]</small></h4>
+                    <em>Developed a system performance monitoring plugin for TencentOS</em>
+                </li>
+                <li>
+                    <h4>Software Engineer Internship at China Mobile <small>[<a href="https://en.wikipedia.org/wiki/China_Mobile" target="_blank">2023.05-2023.08</a>]</small></h4>
+                    <em>Built a service distribution function under the web server of the VPN device and implemented the monitoring module function with the DPU of the product</em>
+                </li>
+                <li>
+                    <h4>Teaching Assistant at GEC Academy <small>[<a href="https://www.gecacademy.com/" target="_blank">2022.05-2023.02</a>]</small></h4>
+                    <em>Assisted professors from UCL, Oxford, Stanford in completing the course content, and scheduled office hours to supplement knowledge for students</em>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Extracurricular Activities</h2>
+            <ul>
+                <li>
+                    <b>President of History Museum at UESTC</b> <span style="color:#888;">(2019.09 - 2021.06)</span>
+                </li>
+                <li>
+                    <b>Volunteer at <em>Hand in Hand</em></b> <span style="color:#888;">(2021.09 - 2021.11)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section award-list">
+            <h2>Honors & Awards</h2>
+            <ul>
+                <li>
+                    <h4>Edge Computing System Design for Interactive Robot in <a href="https://nuedc.sjtu.edu.cn/en/show.aspx?info_lb=20&info_id=304&flag=20" target="_blank">Intel Cup</a></h4>
+                </li>
+                <li>
+                    <h4>Embedded Software System Design for <a href="image/report.pdf" target="_blank">Intelligent Robot</a></h4>
+                </li>
+            </ul>
+        </div>
+
+        <div class="center">
+            <img src="./image/uw_logo.png" border="0" width="220" alt="UW Logo">
+        </div>
+        <div class="center" style="margin-top:10px; color:#888;">
+            Last updated by <a href='http://J-yingchao.github.io/'>Yingchao Jian</a> on June 08, 2023.
+        </div>
+    </div>
 </body>
-
 </html>
